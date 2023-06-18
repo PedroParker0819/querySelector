@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Pessoa</h1>
+
+<div id="Pessoa">
+</div>
+
+<script>
+const person = {
+  nome: "Parker",
+  idade: 16,
+  profissão: "Dev junior"
+};
+
+
+const personElement = document.querySelector("#person");
+personElement.innerHTML = `
+<p>Nome: ${person.nome}</p>
+<p>Idade: ${person.idade}</p>
+<p>Profissão: ${person.profissão}</p>
+`
+
+document.querySelector(".user").innerHTML =
+  "<p>Name: " + user.name + "</p>" +
+  "<p>Age: " + user.age + "</p>" +
+  "<p>Email: " + user.email + "</p>"
+
+function calculateAreaRectangle(base, height) {
+
+    var area = base * height;
+
+  var element = document.createElement("div");
+  element.className = "area";
+
+  element.textContent = area;
+
+  return element;
+}
+</script>
+</script>
+
+
+</body>
+</html>
